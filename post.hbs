@@ -12,26 +12,19 @@
     <script>hljs.initHighlightingOnLoad();</script>
 {{/contentFor}}
 
-
-
-
 <main  role="main">
-
     <article class="row {{post_class}}">
-
         <header class="col-xs-12">
-        <div class="col-md-10 no-margin no-padding post">
-            <h1 class="title">
-            {{title}}
-
-            </h1>
-             </div>
-<div class="col-md-2">
-{{#if feature_image}}
-            <img src="{{feature_image}}" class="post-image"/>
-            {{/if}}
+            <div class="col-md-10 no-margin no-padding post">
+                <h1 class="title">
+                {{title}}
+                </h1>
             </div>
-
+            <div class="col-md-2">
+                {{#if feature_image}}
+                    <img src="{{feature_image}}" class="post-image"/>
+                {{/if}}
+            </div>
         </header>
 
         <section class="col-xs-12">
@@ -39,12 +32,8 @@
         </section>
 
         <footer class="col-xs-12 author">
-            
             <hr>
-
-      
         </footer>
-
     </article>
     
     <!--<div id="disqus_thread" class="post"></div>
@@ -61,7 +50,6 @@
         })();
     </script>
     <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>-->
-
 </main>
 
 {{/post}}
