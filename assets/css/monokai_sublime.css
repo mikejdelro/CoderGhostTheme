@@ -8,7 +8,7 @@ Monokai Sublime style. Derived from Monokai by noformnocontent http://nn.mit-lic
     display: block;
     overflow-x: auto;
     padding: 1em;
-    background: #ffffff;
+    background: #000000;
     -webkit-text-size-adjust: none;
   }
   
@@ -19,13 +19,13 @@ Monokai Sublime style. Derived from Monokai by noformnocontent http://nn.mit-lic
   .css .hljs-function
   .hljs-preprocessor,
   .hljs-pragma {
-    color: #222220;
+    color: #F7F7F7;
   }
   
   .hljs-strongemphasis,
   .hljs-strong,
   .hljs-emphasis {
-    color: #a8a8a2;
+    color: #C75646;
   }
   
   .hljs-bullet,
@@ -36,7 +36,7 @@ Monokai Sublime style. Derived from Monokai by noformnocontent http://nn.mit-lic
   .alias .hljs-keyword,
   .hljs-literal,
   .hljs-hexcolor {
-    color: #ae81ff;
+    color: #9CD9F0;
   }
   
   .hljs-tag .hljs-value,
@@ -44,7 +44,7 @@ Monokai Sublime style. Derived from Monokai by noformnocontent http://nn.mit-lic
   .hljs-title,
   .css .hljs-class,
   .hljs-class .hljs-title:last-child {
-    color: #a6e22e;
+    color: #8EB33B;
   }
   
   .hljs-link_url {
@@ -79,20 +79,20 @@ Monokai Sublime style. Derived from Monokai by noformnocontent http://nn.mit-lic
   .css .hljs-tag,
   .css .unit,
   .css .hljs-important {
-    color: #f92672;
+    color: #E09690;
   }
   
   .hljs-function .hljs-keyword,
   .hljs-class .hljs-keyword:first-child,
   .hljs-constant,
   .css .hljs-attribute {
-    color: #66d9ef;
+    color: #218693;
   }
   
   .hljs-variable,
   .hljs-params,
   .hljs-class .hljs-title {
-    color: #c9c93f;
+    color: #C8A0D1;
   }
   
   .hljs-string,
@@ -118,7 +118,7 @@ Monokai Sublime style. Derived from Monokai by noformnocontent http://nn.mit-lic
   .hljs-prompt,
   .hljs-link_label,
   .hljs-link_url {
-    color: #e6db74;
+    color: #FFE377;
   }
   
   .hljs-comment,
@@ -132,7 +132,7 @@ Monokai Sublime style. Derived from Monokai by noformnocontent http://nn.mit-lic
   .hljs-shebang,
   .apache .hljs-sqbracket,
   .tex .hljs-formula {
-    color: #1d1c17;
+    color: #B0B0B0;
   }
   
   .coffeescript .javascript,
