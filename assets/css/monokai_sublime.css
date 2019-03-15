@@ -19,7 +19,7 @@ Monokai Sublime style. Derived from Monokai by noformnocontent http://nn.mit-lic
   
   .hljs-strong,
   .hljs-emphasis {
-    color: #6e0a77;
+    color: #C75646;
   }
   
   .hljs-bullet,
@@ -28,14 +28,14 @@ Monokai Sublime style. Derived from Monokai by noformnocontent http://nn.mit-lic
   .hljs-regexp,
   .hljs-literal,
   .hljs-link {
-    color: #ae81ff;
+    color: #8EB33B;
   }
   
   .hljs-code,
   .hljs-title,
   .hljs-section,
   .hljs-selector-class {
-    color: #a6e22e;
+    color: #4E90A7;
   }
   
   .hljs-strong {
@@ -73,11 +73,11 @@ Monokai Sublime style. Derived from Monokai by noformnocontent http://nn.mit-lic
   .hljs-addition,
   .hljs-variable,
   .hljs-template-variable {
-    color: #7c7001;
+    color: #218693;
   }
   
   .hljs-comment,
   .hljs-deletion,
   .hljs-meta {
-    color: #75715e;
+    color: #CDEE69;
   }
