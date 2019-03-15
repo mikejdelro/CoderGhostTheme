@@ -1,14 +1,43 @@
 @font-face {
     font-family: 'ApexBook';
-    src: url('/assets/fonts/apexnew-book-webfont.eot');
-    src: url('/assets/fonts/apexnew-book-webfont.eot?#iefix') format('embedded-opentype'),
-         url('/assets/fonts/apexnew-book-webfont.woff') format('woff'),
-         url('/assets/fonts/apexnew-book-webfont.ttf') format('truetype'),
-         url('/assets/fonts/apexnew-book-webfont.svg#ApexNewBook') format('svg');
+    src: url('/assets/fontsapexnew-book-webfont.eot');
+    src: url('/assets/fontsapexnew-book-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/assets/fontsapexnew-book-webfont.woff') format('woff'),
+         url('/assets/fontsapexnew-book-webfont.ttf') format('truetype'),
+         url('/assets/fontsapexnew-book-webfont.svg#ApexNewBook') format('svg');
     font-weight: normal;
     font-style: normal;
 
 }
+
+/* open-sans-300 - latin */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: url('/assets/fonts/open-sans-v15-latin-300.eot'); /* IE9 Compat Modes */
+  src: local('Open Sans Light'), local('OpenSans-Light'),
+       url('/assets/fonts/open-sans-v15-latin-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('/assets/fonts/open-sans-v15-latin-300.woff2') format('woff2'), /* Super Modern Browsers */
+       url('/assets/fonts/open-sans-v15-latin-300.woff') format('woff'), /* Modern Browsers */
+       url('/assets/fonts/open-sans-v15-latin-300.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('/assets/fonts/open-sans-v15-latin-300.svg#OpenSans') format('svg'); /* Legacy iOS */
+}
+
+/* open-sans-700 - latin */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: url('/assets/fonts/open-sans-v15-latin-700.eot'); /* IE9 Compat Modes */
+  src: local('Open Sans Bold'), local('OpenSans-Bold'),
+       url('/assets/fonts/open-sans-v15-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('/assets/fonts/open-sans-v15-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+       url('/assets/fonts/open-sans-v15-latin-700.woff') format('woff'), /* Modern Browsers */
+       url('/assets/fonts/open-sans-v15-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('/assets/fonts/open-sans-v15-latin-700.svg#OpenSans') format('svg'); /* Legacy iOS */
+}
+
 
 pre {
   background-color:none;
@@ -17,7 +46,7 @@ pre {
 
 
 h1,h2,h3,h4,h5 {
-  font-family: "ApexBook"
+  font-family: "Open Sans Bold"
 }
 a { 
 color:#4078c0;
