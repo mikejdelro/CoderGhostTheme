@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     {{! Document Settings }}
     <meta charset="utf-8" />
@@ -7,7 +8,7 @@
 
     {{! Page Meta }}
     <title>
-    {{meta_title}}{{#is "post"}} | {{@blog.title}}{{/is}}
+        {{meta_title}}{{#is "post"}} | {{@blog.title}}{{/is}}
     </title>
 
     {{! Page Meta }}
@@ -20,7 +21,7 @@
     <!--<link rel="stylesheet" type="text/css" href="{{asset "css/screen.css"}}" />-->
 
     {{! Added Bootstrap }}
-    <link rel="stylesheet" href="{{asset "css/bootstrap.min.css"}}"/>
+    <link rel="stylesheet" href="{{asset "css/bootstrap.min.css"}}" />
     <link rel="stylesheet" href="{{asset "css/monokai_sublime.css"}}">
     <link rel="stylesheet" href="{{asset "css/default.css"}}">
 
@@ -35,47 +36,50 @@
     {{! Page Highlight }}
     {{{block "initHighlight"}}}
 </head>
+
 <body>
-{{#is "home"}}
+    {{#is "home"}}
     {{#if @blog.cover_image}}
-        <div style="background:url({{@blog.cover_image}}) no-repeat center center;" class="cover cover-border hidden-sm hidden-xs">
-            <div class="blog-description">
-                <h1>{{@blog.description}}</h1>
-            </div>
+    <div style="background:url({{@blog.cover_image}}) no-repeat center center;" class="cover cover-border hidden-sm hidden-xs">
+        <div class="blog-description">
+            <h1>{{@blog.description}}</h1>
         </div>
+    </div>
     {{/if}}
-{{/is}}
-<div class="container">
-<div class="row">
-<div class="col-md-2 hidden-sm hidden-xs">
-{{> "navbar"}}
-</div>
-<div class="col-md-10 col-xs-12">
-    {{{body}}}
-</div>
-    {{#if @labs.subscribers}}
-        <div class="col-md-10 hidden-xs hidden-sm">
-            <div class="subscribe-form">
-                {{subscribe_form}}
+    {{/is}}
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2 hidden-sm hidden-xs">
+                {{> "navbar"}}
             </div>
+            <div class="col-md-10 col-xs-12">
+                {{{body}}}
+            </div>
+            {{#if @labs.subscribers}}
+            <div class="col-md-10 hidden-xs hidden-sm">
+                <div class="subscribe-form">
+                    {{subscribe_form}}
+                </div>
+            </div>
+
+            {{/if}}
+
         </div>
-
-    {{/if}}
-
-</div>
-</div>
+    </div>
 
     <footer class="page-footer">
-      <div class="container">
-        <div class="row">
-            <div class="col-xs-6">
-                <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a>
-            </div>
-            <div class="col-xs-6 text-right hidden-sm hidden-xs">
-                <a rel="ghost" href="https://ghost.org/"><img alt="Ghost Logo" style="max-height: 100px; max-width: 100px; border-width:0;" src="https://ghost.org/logo.svg" /></a>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-6">
+                    <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License"
+                            style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a>
+                </div>
+                <div class="col-xs-6 text-right hidden-sm hidden-xs">
+                    <a rel="ghost" href="https://ghost.org/"><img alt="Ghost Logo" style="max-height: 100px; max-width: 100px; border-width:0;"
+                            src="https://ghost.org/logo.svg" /></a>
+                </div>
             </div>
         </div>
-      </div>
     </footer>
 
     <a href="#" class="back-to-top"><span class="fa fa-angle-up fa-2x"></span></a>
@@ -86,6 +90,6 @@
     {{! The main JavaScript file for Casper }}
     <script src="{{asset "js/modernizr.js"}}"></script>
     <script type="text/javascript" src="{{asset "js/index.js"}}"></script>
-
 </body>
+
 </html>

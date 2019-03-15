@@ -5,79 +5,79 @@ Monokai Sublime style. Derived from Monokai by noformnocontent http://nn.mit-lic
 */
 
 .hljs {
-    display: block;
-    overflow-x: auto;
-    padding: 0.5em;
-    background: #ffffff;
-  }
-  
-  .hljs,
-  .hljs-tag,
-  .hljs-subst {
-    color: #020201;
-  }
-  
-  .hljs-strong,
-  .hljs-emphasis {
-    color: #C75646;
-  }
-  
-  .hljs-bullet,
-  .hljs-quote,
-  .hljs-number,
-  .hljs-regexp,
-  .hljs-literal,
-  .hljs-link {
-    color: #8EB33B;
-  }
-  
-  .hljs-code,
-  .hljs-title,
-  .hljs-section,
-  .hljs-selector-class {
-    color: #4E90A7;
-  }
-  
-  .hljs-strong {
-    font-weight: bold;
-  }
-  
-  .hljs-emphasis {
-    font-style: italic;
-  }
-  
-  .hljs-keyword,
-  .hljs-selector-tag,
-  .hljs-name,
-  .hljs-attr {
-    color: #f92672;
-  }
-  
-  .hljs-symbol,
-  .hljs-attribute {
-    color: #66d9ef;
-  }
-  
-  .hljs-params,
-  .hljs-class .hljs-title {
-    color: #09793b;
-  }
-  
-  .hljs-string,
-  .hljs-type,
-  .hljs-built_in,
-  .hljs-builtin-name,
-  .hljs-selector-id,
-  .hljs-selector-attr,
-  .hljs-selector-pseudo,
-  .hljs-addition,
-  .hljs-variable,
-  .hljs-template-variable {
-    color: #218693;
-  }
-  
-  .hljs-comment,
-  .hljs-deletion,
-  .hljs-meta {
-    color: #CDEE69;
-  }
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #ffffff;
+}
+
+.hljs,
+.hljs-tag,
+.hljs-subst {
+  color: #020201;
+}
+
+.hljs-strong,
+.hljs-emphasis {
+  color: #C75646;
+}
+
+.hljs-bullet,
+.hljs-quote,
+.hljs-number,
+.hljs-regexp,
+.hljs-literal,
+.hljs-link {
+  color: #8EB33B;
+}
+
+.hljs-code,
+.hljs-title,
+.hljs-section,
+.hljs-selector-class {
+  color: #4E90A7;
+}
+
+.hljs-strong {
+  font-weight: bold;
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-name,
+.hljs-attr {
+  color: #f92672;
+}
+
+.hljs-symbol,
+.hljs-attribute {
+  color: #66d9ef;
+}
+
+.hljs-params,
+.hljs-class .hljs-title {
+  color: #09793b;
+}
+
+.hljs-string,
+.hljs-type,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-selector-id,
+.hljs-selector-attr,
+.hljs-selector-pseudo,
+.hljs-addition,
+.hljs-variable,
+.hljs-template-variable {
+  color: #218693;
+}
+
+.hljs-comment,
+.hljs-deletion,
+.hljs-meta {
+  color: #CDEE69;
+}

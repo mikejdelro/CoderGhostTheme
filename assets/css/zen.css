@@ -1,12 +1,12 @@
 @font-face {
-    font-family: 'ApexBook';
-    src: url('/assets/fonts/apexnew-book-webfont.eot');
-    src: url('/assets/fonts/apexnew-book-webfont.eot?#iefix') format('embedded-opentype'),
-         url('/assets/fonts/apexnew-book-webfont.woff') format('woff'),
-         url('/assets/fonts/apexnew-book-webfont.ttf') format('truetype'),
-         url('/assets/fonts/apexnew-book-webfont.svg#ApexNewBook') format('svg');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'ApexBook';
+  src: url('/assets/fonts/apexnew-book-webfont.eot');
+  src: url('/assets/fonts/apexnew-book-webfont.eot?#iefix') format('embedded-opentype'),
+    url('/assets/fonts/apexnew-book-webfont.woff') format('woff'),
+    url('/assets/fonts/apexnew-book-webfont.ttf') format('truetype'),
+    url('/assets/fonts/apexnew-book-webfont.svg#ApexNewBook') format('svg');
+  font-weight: normal;
+  font-style: normal;
 
 }
 
@@ -31,8 +31,7 @@ Monokai Sublime style. Derived from Monokai by noformnocontent http://nn.mit-lic
 .hljs-tag,
 .css .hljs-rules,
 .css .hljs-value,
-.css .hljs-function
-.hljs-preprocessor,
+.css .hljs-function .hljs-preprocessor,
 .hljs-pragma {
   color: #f8f8f2;
 }

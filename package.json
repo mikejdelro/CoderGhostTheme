@@ -17,12 +17,12 @@
       "Personal"
     ]
   },
-  "license":"MIT",
+  "license": "MIT",
   "author": {
     "name": "mikejdelro-code-ghost-theme",
     "email": "me@michaeldelrosar.io",
     "url": "https://michaeldelrosar.io"
   },
-  "demo":"https://michaeldelrosar.io",
-  "homepage":"https://github.com/mikejdelro"
+  "demo": "https://michaeldelrosar.io",
+  "homepage": "https://github.com/mikejdelro"
 }

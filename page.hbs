@@ -1,20 +1,20 @@
-{{!< default}}
+{{!< default}} <a href="/" class="read-more">
+    <i class="el el-caret-left read-more"></i>Home
+    </a>
 
-<a href="/" class="read-more">
-	<i class="el el-caret-left read-more"></i> home
-</a>
+    {{#contentFor "initHighlight"}}
+    <script>
+        hljs.initHighlightingOnLoad();
+    </script>
+    {{/contentFor}}
 
-{{#contentFor "initHighlight"}}
-    <script>hljs.initHighlightingOnLoad();</script>
-{{/contentFor}}
-
-<main class="container" role="main">
-    <article class="{{post_class}}">
-        {{#post}}
+    <main class="container" role="main">
+        <article class="{{post_class}}">
+            {{#post}}
             <h1 class="title">{{title}}</h1>
-                <section>
-                    {{content}}
-                </section>
-        {{/post}}
-    </article>
-</main>
+            <section>
+                {{content}}
+            </section>
+            {{/post}}
+        </article>
+    </main>
