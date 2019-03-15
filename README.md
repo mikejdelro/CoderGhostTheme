@@ -1,3 +1,8 @@
+#mikejdelro-Coder Ghost
+A fork of [www.mbejda.com](https://github.com/mbejda/CoderGhostTheme)'s [Coder Ghost Theme](https://github.com/mbejda/CoderGhostTheme) to suit my own needs.
+
+
+---
 
 # Coder Ghost Theme for Showcasing Projects
 Open sourcing the Coder Ghost theme. The coder ghost theme was built to show case my open source projects. The theme is packed with the following features :  

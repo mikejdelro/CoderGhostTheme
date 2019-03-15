@@ -1,6 +1,6 @@
 {
-  "name": "coder-ghost-theme",
-  "version": "2.0.2",
+  "name": "mikejdelro-coder-ghost-theme",
+  "version": "1",
   "engines": {
     "ghost": "^1.0.0"
   },
@@ -19,10 +19,10 @@
   },
   "license":"MIT",
   "author": {
-    "name": "Code Ghost Theme",
-    "email": "mbejda@live.com",
-    "url": "https://mbejda.com"
+    "name": "mikejdelro-code-ghost-theme",
+    "email": "me@michaeldelrosar.io",
+    "url": "https://michaeldelrosar.io"
   },
-  "demo":"https://mbejda.com",
-  "homepage":"https://github.com/mbejda/CoderGhostTheme"
+  "demo":"https://michaeldelrosar.io",
+  "homepage":"https://github.com/mikejdelro"
 }
